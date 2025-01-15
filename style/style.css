@@ -197,6 +197,59 @@
     flex-direction: row-reverse;
 }
 
+.subs{
+    text-align: center;
+
+}
+.subs>h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.subs>p{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+
+.input{
+    text-align: center;
+    background: rgb(255, 244, 214);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input>input{
+    border-radius: 5px 0px 0px 5px;
+    padding: 13px 23px;
+    border: none;
+    background: rgb(217, 217, 217);
+}
+
+.subs-btn{
+    border-radius: 0px 5px 5px 0px;
+    padding: 13px 23px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background: rgb(255, 89, 89);
+}
+
+.subs-btn:hover{
+    background-color: rgb(255, 244, 214);
+    border: 1px solid rgb(255, 89, 89);
+    color: black;
+}
+
+
+
+
+
 
 
 
@@ -243,9 +296,23 @@
     }
 
     .card-image>img{
-        height: 250px;
+        height: 200px;
     }
     #hungry-card{
         flex-direction: column-reverse;
+    }
+
+    .subs{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .input{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .subs-btn, .input>input{
+        width: calc(100% - 23px);
     }
 }
