@@ -245,7 +245,24 @@
     border: 1px solid rgb(255, 89, 89);
     color: black;
 }
-
+.footer-content{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 70px;
+}
+.footer-content>h1{
+    font-size: 2.2em;
+    margin-top: 10px;
+}
+.footer-content>p{
+    font-size: small;
+    margin-top: 20px;
+}
 
 
 
@@ -296,7 +313,7 @@
     }
 
     .card-image>img{
-        height: 200px;
+        height: 230px;
     }
     #hungry-card{
         flex-direction: column-reverse;
