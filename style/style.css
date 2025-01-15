@@ -116,7 +116,7 @@
     text-align: center;
 }
 
-.donate-input #btn{
+#btn{
     color: black;
     text-align: center;
     margin: 0 auto;
@@ -165,7 +165,37 @@
 #card-3{
     background: rgb(255, 244, 214);
 }
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
 
+.card-item>h1{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.card-item>p{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 10px 0;
+}
+
+.card-image>img{
+    height: 350px;
+    border-radius: 5px;
+}
+
+#hungry-card{
+    flex-direction: row-reverse;
+}
 
 
 
@@ -198,5 +228,24 @@
     }
     .plan-card-item{
         width: 80%;
+    }
+
+    .card{
+        flex-direction: column-reverse;
+    }
+
+    .card-item{
+        width: 70%;
+    }
+
+    .card-image{
+        width: 90%;
+    }
+
+    .card-image>img{
+        height: 250px;
+    }
+    #hungry-card{
+        flex-direction: column-reverse;
     }
 }
